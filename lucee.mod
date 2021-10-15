@@ -8,10 +8,10 @@ Enables Lucee CFML engine.
 [depend]
 http
 jsp
-rewrite
 
 [lib]
 modules/lucee/lib/**.jar
+lib/jetty-rewrite-${jetty.version}.jar
 
 [ini]
 modules/lucee/etc/lucee-rewrite-rules.xml
